@@ -5,11 +5,14 @@
   "author": "Matteo Scarpa [@fundor333]",
   "displayName": "F333 Colors",
   "description": "I don't like the theme online so I wrote mine with some strange color choises",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "icon": "logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/fundor333/F333-Colors"
+  },
+  "bugs": {
+    "url": "https://github.com/fundor333/F333-Colors/issues"
   },
   "engines": {
     "vscode": "^1.76.0"
@@ -20,10 +23,20 @@
   "contributes": {
     "themes": [
       {
-        "label": "F333 Colors",
+        "label": "F333 Colors Green",
         "uiTheme": "vs-dark",
-        "path": "./themes/F333 Colors-color-theme.json"
+        "path": "./themes/f333-colors-green.json"
+      },
+      {
+        "label": "F333 Colors Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f333 colors green-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "build": "vsce package",
+    "package": "vsce package",
+    "publish": "vsce publish"
   }
 }
