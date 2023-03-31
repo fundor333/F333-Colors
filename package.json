@@ -1,0 +1,21 @@
+{
+  "name": "f333-colors",
+  "displayName": "F333 Colors",
+  "description": "I don't like the theme online so I wrote mine with some strange color choises",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "F333 Colors",
+        "uiTheme": "vs-dark",
+        "path": "./themes/F333 Colors-color-theme.json"
+      }
+    ]
+  }
+}
