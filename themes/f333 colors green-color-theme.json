@@ -24,11 +24,15 @@
         "tab.activeForeground": "#1f1f1f",
         "tab.inactiveBackground": "#212121",
         "tab.inactiveForeground": "#c2c2c2",
+        "tab.unfocusedActiveBackground": "#212121",
+        "tab.unfocusedActiveForeground": "#c2c2c2",
         // Terminal
         "debugConsole.sourceForeground": "#ffffff",
         "debugConsole.infoForeground": "#00eeff",
         "debugConsole.errorForeground": "#ff0000",
-        "debugConsole.warningForeground": "#ff6200"
+        "debugConsole.warningForeground": "#ff6200",
+        // Git Decorator
+        "gitDecoration.modifiedResourceForeground": "#c2c2c2"
     },
     "tokenColors": [
         {
