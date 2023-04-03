@@ -5,7 +5,7 @@
   "author": "Matteo Scarpa [@fundor333]",
   "displayName": "F333 Colors",
   "description": "I don't like the theme online so I wrote mine with some strange color choises",
-  "version": "0.1.6",
+  "version": "0.1.9",
   "icon": "logo.png",
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
       {
         "label": "F333 Colors Green",
         "uiTheme": "vs-dark",
-        "path": "./themes/f333-colors-green.json"
+        "path": "./themes/f333 colors green-color-theme.json"
       },
       {
         "label": "F333 Colors Red",
