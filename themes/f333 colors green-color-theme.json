@@ -2,8 +2,48 @@
     "name": "F333 Colors Green",
     "colors": {
         // Generic
-        "editor.background": {
-            { black
+        "editor.background": "#212121",
+        "editor.foreground": "#c2c2c2",
+        // Badge settings
+        "activityBarBadge.background": "#9055A2",
+        // Activity bar (left)
+        "activityBar.foreground": "#c2c2c2",
+        "activityBar.inactiveForeground": "#1f1f1f",
+        "activityBar.background": "#3c8f3c",
+        // Status Bar (bottom)
+        "statusBar.background": "#1f1f1f",
+        "statusBar.foreground": "#c2c2c2",
+        "statusBar.debuggingBackground": "#3c8f3c",
+        "statusBar.debuggingForeground": "#c2c2c2",
+        "statusBar.noFolderBackground": "#1f1f1f",
+        "statusBar.noFolderForeground": "#3c8f3c",
+        // To bar
+        "titleBar.activeBackground": "#1f1f1f",
+        // Tabs
+        "tab.activeBackground": "#3c8f3c",
+        "tab.activeForeground": "#1f1f1f",
+        "tab.inactiveBackground": "#212121",
+        "tab.inactiveForeground": "#c2c2c2",
+        "tab.unfocusedActiveBackground": "#212121",
+        "tab.unfocusedActiveForeground": "#c2c2c2",
+        // Terminal
+        "debugConsole.sourceForeground": "#ffffff",
+        "debugConsole.infoForeground": "#00eeff",
+        "debugConsole.errorForeground": "#ff0000",
+        "debugConsole.warningForeground": "#ff6200",
+        // Git Decorator
+        "gitDecoration.modifiedResourceForeground": "#c2c2c2"
+    },
+    "tokenColors": [
+        {
+            "name": "Comment",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#546E7A"
             }
         },
         "editor.foreground": {
