@@ -1,0 +1,36 @@
+{
+    "name": {{title}},
+    "colors": {
+        // Generic
+        "editor.background": {{ black }},
+        "editor.foreground": {{ gray }},
+        // Badge settings
+        "activityBarBadge.background": {{ notice }},
+        // Activity bar (left)
+        "activityBar.foreground": {{ gray }},
+        "activityBar.inactiveForeground": {{ black }},
+        "activityBar.background": {{ gray }},
+        // Status Bar (bottom)
+        "statusBar.background": {{ black }},
+        "statusBar.foreground": {{ gray }},
+        "statusBar.debuggingBackground": {{ gray }},
+        "statusBar.debuggingForeground": {{ gray }},
+        "statusBar.noFolderBackground": {{ black }},
+        "statusBar.noFolderForeground": {{ gray }},
+        // To bar
+        "titleBar.activeBackground": {{ black }},
+        // Tabs
+        "tab.activeBackground": {{ gray }},
+        "tab.activeForeground": {{ black }},
+        "tab.inactiveBackground": {{ black }},
+        "tab.inactiveForeground": {{ gray }},
+        "tab.unfocusedActiveBackground": {{ black }},
+        "tab.unfocusedActiveForeground": {{ gray }},
+        // Terminal
+        "debugConsole.sourceForeground": {{ gray }},
+        "debugConsole.infoForeground": {{ notice }},
+        "debugConsole.errorForeground": {{ allert }},
+        "debugConsole.warningForeground": {{ allert }},
+    },
+    "tokenColors": {{token_colors}}
+}
