@@ -9,7 +9,7 @@
         // Activity bar (left)
         "activityBar.foreground": "#c2c2c2",
         "activityBar.inactiveForeground": "#1f1f1f",
-        "activityBar.background": "#c2c2c2",
+        "activityBar.background": "#ff0000",
         // Status Bar (bottom)
         "statusBar.background": "#1f1f1f",
         "statusBar.foreground": "#c2c2c2",
@@ -20,7 +20,7 @@
         // To bar
         "titleBar.activeBackground": "#1f1f1f",
         // Tabs
-        "tab.activeBackground": "#c2c2c2",
+        "tab.activeBackground": "#ff0000",
         "tab.activeForeground": "#1f1f1f",
         "tab.inactiveBackground": "#1f1f1f",
         "tab.inactiveForeground": "#c2c2c2",
