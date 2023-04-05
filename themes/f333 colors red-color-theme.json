@@ -32,7 +32,7 @@
         "debugConsole.errorForeground": "ff6200",
         "debugConsole.warningForeground": "ff6200",
     },
-    "tokenColors": "[
+    "tokenColors": [
     {
         "name": "Comment",
         "scope": [
@@ -651,5 +651,5 @@
         }
     }
 ]
-"
+
 }
