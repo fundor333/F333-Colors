@@ -15,3 +15,10 @@ You can author your README using Visual Studio Code. Here are some useful editor
 
 **Enjoy!**
 
+# ED4241
+
+# EA9E22
+
+# 561E45
+
+# 063041
