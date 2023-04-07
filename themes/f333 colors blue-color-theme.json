@@ -4,6 +4,12 @@
         // Generic
         "editor.background": "#1f1f1f",
         "editor.foreground": "#c2c2c2",
+        // Terminal
+        "debugConsole.sourceForeground": "#c2c2c2",
+        "debugConsole.infoForeground": "#c2c2c2",
+        "debugConsole.errorForeground": "#ff0000",
+        "debugConsole.warningForeground": "#EA9E22",
+        ////
         // Badge settings
         "activityBarBadge.background": "#82AAFF",
         // Activity bar (left)
@@ -12,25 +18,24 @@
         "activityBar.background": "#1e81b0",
         // Status Bar (bottom)
         "statusBar.background": "#1f1f1f",
-        "statusBar.foreground": "#c2c2c2",
-        "statusBar.debuggingBackground": "#c2c2c2",
-        "statusBar.debuggingForeground": "#c2c2c2",
+        "statusBar.foreground": "#E4E3D3",
+        "statusBar.debuggingBackground": "#1e81b0",
+        "statusBar.debuggingForeground": "#1f1f1f",
         "statusBar.noFolderBackground": "#1f1f1f",
         "statusBar.noFolderForeground": "#c2c2c2",
         // To bar
         "titleBar.activeBackground": "#1f1f1f",
+        "titleBar.activeForeground": "#E4E3D3",
         // Tabs
         "tab.activeBackground": "#1e81b0",
         "tab.activeForeground": "#1f1f1f",
+        "tab.activeModifiedBorder": "#1e81b0",
+        "tab.inactiveModifiedBorder": "#1e81b0",
         "tab.inactiveBackground": "#1f1f1f",
         "tab.inactiveForeground": "#c2c2c2",
+        "tab.inactiveModifiedBorder": "#1e81b0",
         "tab.unfocusedActiveBackground": "#1f1f1f",
-        "tab.unfocusedActiveForeground": "#c2c2c2",
-        // Terminal
-        "debugConsole.sourceForeground": "#c2c2c2",
-        "debugConsole.infoForeground": "#82AAFF",
-        "debugConsole.errorForeground": "ff6200",
-        "debugConsole.warningForeground": "ff6200",
+        "tab.unfocusedActiveForeground": "#c2c2c2"
     },
     "tokenColors": [
     {

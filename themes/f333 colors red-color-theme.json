@@ -4,33 +4,38 @@
         // Generic
         "editor.background": "#1f1f1f",
         "editor.foreground": "#c2c2c2",
-        // Badge settings
-        "activityBarBadge.background": "#82AAFF",
-        // Activity bar (left)
-        "activityBar.foreground": "#c2c2c2",
-        "activityBar.inactiveForeground": "#1f1f1f",
-        "activityBar.background": "#ff0000",
-        // Status Bar (bottom)
-        "statusBar.background": "#1f1f1f",
-        "statusBar.foreground": "#c2c2c2",
-        "statusBar.debuggingBackground": "#c2c2c2",
-        "statusBar.debuggingForeground": "#c2c2c2",
-        "statusBar.noFolderBackground": "#1f1f1f",
-        "statusBar.noFolderForeground": "#c2c2c2",
-        // To bar
-        "titleBar.activeBackground": "#1f1f1f",
-        // Tabs
-        "tab.activeBackground": "#ff0000",
-        "tab.activeForeground": "#1f1f1f",
-        "tab.inactiveBackground": "#1f1f1f",
-        "tab.inactiveForeground": "#c2c2c2",
-        "tab.unfocusedActiveBackground": "#1f1f1f",
-        "tab.unfocusedActiveForeground": "#c2c2c2",
         // Terminal
         "debugConsole.sourceForeground": "#c2c2c2",
-        "debugConsole.infoForeground": "#82AAFF",
-        "debugConsole.errorForeground": "ff6200",
-        "debugConsole.warningForeground": "ff6200",
+        "debugConsole.infoForeground": "#c2c2c2",
+        "debugConsole.errorForeground": "#ff0000",
+        "debugConsole.warningForeground": "#EA9E22",
+        ////
+        // Badge settings
+        "activityBarBadge.background": "#1E3231",
+        // Activity bar (left)
+        "activityBar.foreground": "#E4E3D3",
+        "activityBar.inactiveForeground": "#1f1f1f",
+        "activityBar.background": "#ED4241",
+        // Status Bar (bottom)
+        "statusBar.background": "#1f1f1f",
+        "statusBar.foreground": "#E4E3D3",
+        "statusBar.debuggingBackground": "#ED4241",
+        "statusBar.debuggingForeground": "#1f1f1f",
+        "statusBar.noFolderBackground": "#1f1f1f",
+        "statusBar.noFolderForeground": "#E4E3D3",
+        // To bar
+        "titleBar.activeBackground": "#1f1f1f",
+        "titleBar.activeForeground": "#E4E3D3",
+        // Tabs
+        "tab.activeBackground": "#ED4241",
+        "tab.activeForeground": "#1f1f1f",
+        "tab.activeModifiedBorder": "#ED4241",
+        "tab.inactiveModifiedBorder": "#ED4241",
+        "tab.inactiveBackground": "#1f1f1f",
+        "tab.inactiveForeground": "#E4E3D3",
+        "tab.inactiveModifiedBorder": "#ED4241",
+        "tab.unfocusedActiveBackground": "#1f1f1f",
+        "tab.unfocusedActiveForeground": "#E4E3D3"
     },
     "tokenColors": [
     {
