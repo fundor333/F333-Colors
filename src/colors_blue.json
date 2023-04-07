@@ -1,0 +1,13 @@
+{
+    "filename": "f333 colors blue-color-theme.json",
+    "title": "F333 Colors Blue",
+    "uiTheme": "vs-dark",
+    "tokenColors": "token_colors_dark.json",
+    "template": "template.jinja",
+    "black": "#1f1f1f",
+    "gray": "#c2c2c2",
+    "main": "#1e81b0",
+    "notice": "#82AAFF",
+    "warning": "#ff0000",
+    "allert": "ff6200"
+}
