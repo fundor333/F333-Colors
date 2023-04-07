@@ -2,8 +2,14 @@
     "name": "{{title}}",
     "colors": {
         // Generic
-        "editor.background": "{{ font }}",
-        "editor.foreground": "{{ inverted_font }}",
+        "editor.background": "{{ editor_backgound }}",
+        "editor.foreground": "{{ editor_font }}",
+        // Terminal
+        "debugConsole.sourceForeground": "{{ terminal_font }}",
+        "debugConsole.infoForeground": "{{ terminal_info }}",
+        "debugConsole.errorForeground": "{{ terminal_error }}",
+        "debugConsole.warningForeground": "{{ terminal_warning }}",
+        ////
         // Badge settings
         "activityBarBadge.background": "{{ notice }}",
         // Activity bar (left)
@@ -11,36 +17,25 @@
         "activityBar.inactiveForeground": "{{ font }}",
         "activityBar.background": "{{ main }}",
         // Status Bar (bottom)
-        "statusBar.background": "{{ font }}",
-        "statusBar.foreground": "{{ inverted_font }}",
+        "statusBar.background": "#1f1f1f",
+        "statusBar.foreground": "#E4E3D3",
         "statusBar.debuggingBackground": "{{ main }}",
         "statusBar.debuggingForeground": "{{ font }}",
         "statusBar.noFolderBackground": "{{ font }}",
         "statusBar.noFolderForeground": "{{ inverted_font }}",
         // To bar
-        "titleBar.activeBackground": "{{ font }}",
+        "titleBar.activeBackground": "#1f1f1f",
+        "titleBar.activeForeground": "#E4E3D3",
         // Tabs
         "tab.activeBackground": "{{ main }}",
         "tab.activeForeground": "{{ font }}",
+        "tab.activeModifiedBorder": "{{ main }}",
+        "tab.inactiveModifiedBorder": "{{ main }}",
         "tab.inactiveBackground": "{{ font }}",
         "tab.inactiveForeground": "{{ inverted_font }}",
+        "tab.inactiveModifiedBorder": "{{ main }}",
         "tab.unfocusedActiveBackground": "{{ font }}",
-        "tab.unfocusedActiveForeground": "{{ inverted_font }}",
-        // Terminal
-        "debugConsole.sourceForeground": "{{ inverted_font }}",
-        "debugConsole.infoForeground": "{{ notice }}",
-        "debugConsole.errorForeground": "{{ allert }}",
-        "debugConsole.warningForeground": "{{ allert }}",
-
-        "gitDecoration.addedResourceForeground": "{{ inverted_font }}",
-        "gitDecoration.modifiedResourceForeground": "{{ inverted_font }}",
-        "gitDecoration.deletedResourceForeground": "{{ inverted_font }}",
-        "gitDecoration.renamedResourceForeground": "{{ inverted_font }}",
-        "gitDecoration.stageModifiedResourceForeground": "{{ inverted_font }}",
-        "gitDecoration.stageDeletedResourceForeground": "{{ inverted_font }}",
-        "gitDecoration.untrackedResourceForeground": "{{ inverted_font }}",
-        "gitDecoration.ignoredResourceForeground": "{{ inverted_font }}",
-        "gitDecoration.conflictingResourceForeground": "{{ inverted_font }}"
+        "tab.unfocusedActiveForeground": "{{ inverted_font }}"
     },
     "tokenColors": {{token_colors}}
 }

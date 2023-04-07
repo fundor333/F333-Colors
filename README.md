@@ -15,8 +15,4 @@ You can author your README using Visual Studio Code. Here are some useful editor
 
 **Enjoy!**
 
-# EA9E22
-
-# 561E45
-
 # 063041

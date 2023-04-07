@@ -36,6 +36,16 @@
         "label": "F333 Colors Red",
         "uiTheme": "vs-dark",
         "path": "./themes/f333 colors red-color-theme.json"
+      },
+      {
+        "label": "F333 Colors Orange",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f333 colors orange-color-theme.json"
+      },
+      {
+        "label": "F333 Colors Plum",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f333 colors plum-color-theme.json"
       }
     ]
   },

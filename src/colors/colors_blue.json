@@ -9,5 +9,11 @@
     "main": "#1e81b0",
     "notice": "#82AAFF",
     "warning": "#ff0000",
-    "allert": "ff6200"
+    "allert": "#ff6200",
+    "editor_backgound": "#1f1f1f",
+    "editor_font": "#c2c2c2",
+    "terminal_font": "#c2c2c2",
+    "terminal_info": "#c2c2c2",
+    "terminal_error": "#ff0000",
+    "terminal_warning": "#EA9E22"
 }

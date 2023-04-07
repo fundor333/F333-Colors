@@ -5,6 +5,8 @@ COLOR_SETTINGS = [
     "src/colors/colors_green.json",
     "src/colors/colors_red.json",
     "src/colors/colors_blue.json",
+    "src/colors/colors_orange.json",
+    "src/colors/colors_plum.json",
 ]
 
 

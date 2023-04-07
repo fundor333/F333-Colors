@@ -3,7 +3,13 @@
     "colors": {
         // Generic
         "editor.background": "#1f1f1f",
-        "editor.foreground": "#E4E3D3",
+        "editor.foreground": "#c2c2c2",
+        // Terminal
+        "debugConsole.sourceForeground": "#c2c2c2",
+        "debugConsole.infoForeground": "#c2c2c2",
+        "debugConsole.errorForeground": "#ff0000",
+        "debugConsole.warningForeground": "#EA9E22",
+        ////
         // Badge settings
         "activityBarBadge.background": "#1E3231",
         // Activity bar (left)
@@ -19,28 +25,17 @@
         "statusBar.noFolderForeground": "#E4E3D3",
         // To bar
         "titleBar.activeBackground": "#1f1f1f",
+        "titleBar.activeForeground": "#E4E3D3",
         // Tabs
         "tab.activeBackground": "#ED4241",
         "tab.activeForeground": "#1f1f1f",
+        "tab.activeModifiedBorder": "#ED4241",
+        "tab.inactiveModifiedBorder": "#ED4241",
         "tab.inactiveBackground": "#1f1f1f",
         "tab.inactiveForeground": "#E4E3D3",
+        "tab.inactiveModifiedBorder": "#ED4241",
         "tab.unfocusedActiveBackground": "#1f1f1f",
-        "tab.unfocusedActiveForeground": "#E4E3D3",
-        // Terminal
-        "debugConsole.sourceForeground": "#E4E3D3",
-        "debugConsole.infoForeground": "#1E3231",
-        "debugConsole.errorForeground": "ff6200",
-        "debugConsole.warningForeground": "ff6200",
-
-        "gitDecoration.addedResourceForeground": "#E4E3D3",
-        "gitDecoration.modifiedResourceForeground": "#E4E3D3",
-        "gitDecoration.deletedResourceForeground": "#E4E3D3",
-        "gitDecoration.renamedResourceForeground": "#E4E3D3",
-        "gitDecoration.stageModifiedResourceForeground": "#E4E3D3",
-        "gitDecoration.stageDeletedResourceForeground": "#E4E3D3",
-        "gitDecoration.untrackedResourceForeground": "#E4E3D3",
-        "gitDecoration.ignoredResourceForeground": "#E4E3D3",
-        "gitDecoration.conflictingResourceForeground": "#E4E3D3"
+        "tab.unfocusedActiveForeground": "#E4E3D3"
     },
     "tokenColors": [
     {
