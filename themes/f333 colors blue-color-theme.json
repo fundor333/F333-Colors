@@ -13,8 +13,8 @@
         // Status Bar (bottom)
         "statusBar.background": "#1f1f1f",
         "statusBar.foreground": "#c2c2c2",
-        "statusBar.debuggingBackground": "#c2c2c2",
-        "statusBar.debuggingForeground": "#c2c2c2",
+        "statusBar.debuggingBackground": "#1e81b0",
+        "statusBar.debuggingForeground": "#1f1f1f",
         "statusBar.noFolderBackground": "#1f1f1f",
         "statusBar.noFolderForeground": "#c2c2c2",
         // To bar
@@ -31,15 +31,16 @@
         "debugConsole.infoForeground": "#82AAFF",
         "debugConsole.errorForeground": "ff6200",
         "debugConsole.warningForeground": "ff6200",
+
         "gitDecoration.addedResourceForeground": "#c2c2c2",
-"gitDecoration.modifiedResourceForeground": "#c2c2c2",
-"gitDecoration.deletedResourceForeground": "#c2c2c2",
-"gitDecoration.renamedResourceForeground": "#c2c2c2",
-"gitDecoration.stageModifiedResourceForeground": "#c2c2c2",
-"gitDecoration.stageDeletedResourceForeground": "#c2c2c2",
-"gitDecoration.untrackedResourceForeground": Color for untracked Git resources. Used for file labels and the SCM viewlet.
-"gitDecoration.ignoredResourceForeground": "#c2c2c2",
-"gitDecoration.conflictingResourceForeground": "#c2c2c2"
+        "gitDecoration.modifiedResourceForeground": "#c2c2c2",
+        "gitDecoration.deletedResourceForeground": "#c2c2c2",
+        "gitDecoration.renamedResourceForeground": "#c2c2c2",
+        "gitDecoration.stageModifiedResourceForeground": "#c2c2c2",
+        "gitDecoration.stageDeletedResourceForeground": "#c2c2c2",
+        "gitDecoration.untrackedResourceForeground": "#c2c2c2",
+        "gitDecoration.ignoredResourceForeground": "#c2c2c2",
+        "gitDecoration.conflictingResourceForeground": "#c2c2c2"
     },
     "tokenColors": [
     {
