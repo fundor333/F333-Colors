@@ -5,11 +5,11 @@
         "editor.background": "#1f1f1f",
         "editor.foreground": "#c2c2c2",
         // Badge settings
-        "activityBarBadge.background": "#82AAFF",
+        "activityBarBadge.background": "#EA9E22",
         // Activity bar (left)
         "activityBar.foreground": "#c2c2c2",
         "activityBar.inactiveForeground": "#1f1f1f",
-        "activityBar.background": "#ff0000",
+        "activityBar.background": "#ED4241",
         // Status Bar (bottom)
         "statusBar.background": "#1f1f1f",
         "statusBar.foreground": "#c2c2c2",
@@ -20,7 +20,7 @@
         // To bar
         "titleBar.activeBackground": "#1f1f1f",
         // Tabs
-        "tab.activeBackground": "#ff0000",
+        "tab.activeBackground": "#ED4241",
         "tab.activeForeground": "#1f1f1f",
         "tab.inactiveBackground": "#1f1f1f",
         "tab.inactiveForeground": "#c2c2c2",
@@ -28,9 +28,18 @@
         "tab.unfocusedActiveForeground": "#c2c2c2",
         // Terminal
         "debugConsole.sourceForeground": "#c2c2c2",
-        "debugConsole.infoForeground": "#82AAFF",
+        "debugConsole.infoForeground": "#EA9E22",
         "debugConsole.errorForeground": "ff6200",
         "debugConsole.warningForeground": "ff6200",
+        "gitDecoration.addedResourceForeground": "#c2c2c2",
+"gitDecoration.modifiedResourceForeground": "#c2c2c2",
+"gitDecoration.deletedResourceForeground": "#c2c2c2",
+"gitDecoration.renamedResourceForeground": "#c2c2c2",
+"gitDecoration.stageModifiedResourceForeground": "#c2c2c2",
+"gitDecoration.stageDeletedResourceForeground": "#c2c2c2",
+"gitDecoration.untrackedResourceForeground": Color for untracked Git resources. Used for file labels and the SCM viewlet.
+"gitDecoration.ignoredResourceForeground": "#c2c2c2",
+"gitDecoration.conflictingResourceForeground": "#c2c2c2"
     },
     "tokenColors": [
     {

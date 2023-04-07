@@ -6,8 +6,8 @@
     "template": "template.jinja",
     "black": "#1f1f1f",
     "gray": "#c2c2c2",
-    "main": "#ff0000",
-    "notice": "#82AAFF",
+    "main": "#ED4241",
+    "notice": "#EA9E22",
     "warning": "#ff0000",
     "allert": "ff6200"
 }

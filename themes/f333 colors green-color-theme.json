@@ -31,6 +31,15 @@
         "debugConsole.infoForeground": "#82AAFF",
         "debugConsole.errorForeground": "ff6200",
         "debugConsole.warningForeground": "ff6200",
+        "gitDecoration.addedResourceForeground": "#c2c2c2",
+"gitDecoration.modifiedResourceForeground": "#c2c2c2",
+"gitDecoration.deletedResourceForeground": "#c2c2c2",
+"gitDecoration.renamedResourceForeground": "#c2c2c2",
+"gitDecoration.stageModifiedResourceForeground": "#c2c2c2",
+"gitDecoration.stageDeletedResourceForeground": "#c2c2c2",
+"gitDecoration.untrackedResourceForeground": Color for untracked Git resources. Used for file labels and the SCM viewlet.
+"gitDecoration.ignoredResourceForeground": "#c2c2c2",
+"gitDecoration.conflictingResourceForeground": "#c2c2c2"
     },
     "tokenColors": [
     {
