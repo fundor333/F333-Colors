@@ -1,5 +1,6 @@
 {
     "filename": "f333 colors orange-color-theme.json",
+    "uiTheme": "vs-dark",
     "title": "F333 Colors Orange",
     "uiTheme": "vs-dark",
     "tokenColors": "editor/token_colors_dark.json",

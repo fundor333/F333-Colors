@@ -1,13 +1,6 @@
 import json
 import jinja2
-
-COLOR_SETTINGS = [
-    "src/colors/colors_green.json",
-    "src/colors/colors_red.json",
-    "src/colors/colors_blue.json",
-    "src/colors/colors_orange.json",
-    "src/colors/colors_plum.json",
-]
+import glob
 
 
 def get_config(path_config: str) -> dict:
@@ -26,6 +19,21 @@ def elaborate_theme(setting: dict):
         f.write(output_template)
 
 
-for e in COLOR_SETTINGS:
-    setting = get_config(e)
-    elaborate_theme(setting)
+if __name__ == "__main__":
+    settings = []
+    for e in glob.glob("src/colors/*"):
+        setting = get_config(e)
+        elaborate_theme(setting)
+        settings.append(
+            {
+                "label": setting["title"],
+                "uiTheme": setting["uiTheme"],
+                "path": "./themes/" + setting["filename"],
+            }
+        )
+    with open('src/template/package.json.jinja') as f:
+        template = jinja2.Template("".join(f.readlines()))
+    output_template = template.render({"themes": settings})
+
+    with open("package.json", 'w') as f:
+        f.write(output_template)
