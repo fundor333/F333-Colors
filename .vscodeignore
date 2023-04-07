@@ -2,3 +2,9 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+*.py
+*.pyc
+Pipfile
+Pipfile.lock
+makefile
+.venv
