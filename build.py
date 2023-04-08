@@ -14,7 +14,13 @@ def elaborate_theme(setting: dict):
         template = jinja2.Template("".join(f.readlines()))
     with open("src/" + setting.get('tokenColors')) as f:
         setting['token_colors'] = ''.join(f.readlines())
-    output_template = template.render(setting)
+    raw_template = json.loads(template.render(setting))
+
+    with open(setting.get('git', "src/git/git_basic.json")) as f:
+        git_str = json.load(f)
+        raw_template['colors'].update(git_str)
+
+    output_template = json.dumps(raw_template, indent=4)
     with open("themes/" + setting['filename'], 'w') as f:
         f.write(output_template)
 
