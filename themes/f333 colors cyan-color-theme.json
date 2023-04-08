@@ -1,5 +1,5 @@
 {
-    "name": "F333 Colors Blue",
+    "name": "F333 Colors Cyan",
     "colors": {
         // Generic
         "editor.background": "#1f1f1f",
@@ -13,29 +13,29 @@
         // Badge settings
         "activityBarBadge.background": "#82AAFF",
         // Activity bar (left)
-        "activityBar.foreground": "#1f1f1f",
-        "activityBar.inactiveForeground": "#c2c2c2",
-        "activityBar.background": "#063041",
+        "activityBar.foreground": "#c2c2c2",
+        "activityBar.inactiveForeground": "#1f1f1f",
+        "activityBar.background": "#1e81b0",
         // Status Bar (bottom)
         "statusBar.background": "#1f1f1f",
         "statusBar.foreground": "#E4E3D3",
-        "statusBar.debuggingBackground": "#063041",
-        "statusBar.debuggingForeground": "#c2c2c2",
-        "statusBar.noFolderBackground": "#c2c2c2",
-        "statusBar.noFolderForeground": "#1f1f1f",
+        "statusBar.debuggingBackground": "#1e81b0",
+        "statusBar.debuggingForeground": "#1f1f1f",
+        "statusBar.noFolderBackground": "#1f1f1f",
+        "statusBar.noFolderForeground": "#c2c2c2",
         // To bar
         "titleBar.activeBackground": "#1f1f1f",
         "titleBar.activeForeground": "#E4E3D3",
         // Tabs
-        "tab.activeBackground": "#063041",
-        "tab.activeForeground": "#c2c2c2",
-        "tab.activeModifiedBorder": "#063041",
-        "tab.inactiveModifiedBorder": "#063041",
-        "tab.inactiveBackground": "#c2c2c2",
-        "tab.inactiveForeground": "#1f1f1f",
-        "tab.inactiveModifiedBorder": "#063041",
-        "tab.unfocusedActiveBackground": "#c2c2c2",
-        "tab.unfocusedActiveForeground": "#1f1f1f"
+        "tab.activeBackground": "#1e81b0",
+        "tab.activeForeground": "#1f1f1f",
+        "tab.activeModifiedBorder": "#1e81b0",
+        "tab.inactiveModifiedBorder": "#1e81b0",
+        "tab.inactiveBackground": "#1f1f1f",
+        "tab.inactiveForeground": "#c2c2c2",
+        "tab.inactiveModifiedBorder": "#1e81b0",
+        "tab.unfocusedActiveBackground": "#1f1f1f",
+        "tab.unfocusedActiveForeground": "#c2c2c2"
     },
     "tokenColors": [
     {
