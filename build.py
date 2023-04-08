@@ -33,7 +33,7 @@ if __name__ == "__main__":
         )
     with open('src/template/package.json.jinja') as f:
         template = jinja2.Template("".join(f.readlines()))
-    output_template = template.render({"themes": settings})
+    output_template = template.render({"themes": json.dumps(settings, indent=4)})
 
     with open("package.json", 'w') as f:
         f.write(output_template)
