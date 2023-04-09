@@ -2,7 +2,6 @@
     "filename": "f333 colors plum-color-theme.json",
     "uiTheme": "vs-dark",
     "title": "F333 Colors Plum",
-    "uiTheme": "vs-dark",
     "tokenColors": "editor/token_colors_dark.json",
     "template": "template/template.jinja",
     "inverted_font": "#1f1f1f",

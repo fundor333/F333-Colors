@@ -1,6 +1,10 @@
 # f333-colors
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![release](https://img.shields.io/github/release/Fundor333/f333-colors.svg?style=for-the-badge&logo=github&logoColor=white&colorA=2b303b&colorB=00e8c6)](https://github.com/Fundor333/f333-colors/releases/latest)
+[![vscode](https://img.shields.io/badge/VS_Code-v1.26+-373277.svg?style=for-the-badge&logo=microsoft&logoColor=white&colorA=2b303b&colorB=7cb7ff)](https://code.visualstudio.com/updates/v1_26)
+[![downloads](https://img.shields.io/visual-studio-marketplace/d/Fundor333.f333-colors?style=for-the-badge&logo=docusign&logoColor=white&colorA=2b303b&colorB=96E072)](https://marketplace.visualstudio.com/items?itemName=Fundor333.f333-colors)
+[![rating](https://img.shields.io/visual-studio-marketplace/stars/Fundor333.f333-colors?style=for-the-badge&logo=reverbnation&logoColor=white&colorA=2b303b&colorB=FFE66D)](https://marketplace.visualstudio.com/items?itemName=Fundor333.f333-colors)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge&logoColor=white&colorA=2b303b)](https://www.gnu.org/licenses/gpl-3.0)
 
 ![logo.png](logo.png)
 
