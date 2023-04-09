@@ -6,7 +6,7 @@
         "debugConsole.sourceForeground": "#c2c2c2",
         "debugConsole.infoForeground": "#c2c2c2",
         "debugConsole.errorForeground": "#ff0000",
-        "activityBarBadge.background": "#1E3231",
+        "activityBarBadge.background": "#1e81b0",
         "activityBar.foreground": "#1f1f1f",
         "activityBar.inactiveForeground": "#E4E3D3",
         "activityBar.background": "#EA9E22",

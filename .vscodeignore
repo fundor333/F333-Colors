@@ -8,3 +8,5 @@ Pipfile
 Pipfile.lock
 makefile
 .venv
+src
+screenshots
