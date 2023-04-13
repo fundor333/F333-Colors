@@ -26,7 +26,7 @@
         "tab.inactiveForeground": "#c2c2c2",
         "tab.unfocusedActiveBackground": "#1f1f1f",
         "tab.unfocusedActiveForeground": "#c2c2c2",
-        "gitDecoration.addedResourceForeground": "#1f1f1f",
+        "gitDecoration.addedResourceForeground": "#c2c2c2",
         "gitDecoration.modifiedResourceForeground": "#82AAFF",
         "gitDecoration.deletedResourceForeground": "#ff0000",
         "gitDecoration.renamedResourceForeground": "#ff6200",
