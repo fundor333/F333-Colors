@@ -1,0 +1,19 @@
+{
+    "filename": "f333 colors cyan-color-theme.json",
+    "title": "F333 Colors Cyan",
+    "uiTheme": "vs-dark",
+    "tokenColors": "editor/token_colors_dark.json",
+    "template": "template/template.jinja",
+    "font": "#1f1f1f",
+    "inverted_font": "#c2c2c2",
+    "main": "#1e81b0",
+    "notice": "#EA9E22",
+    "warning": "#ff0000",
+    "allert": "#ff6200",
+    "editor_backgound": "#1f1f1f",
+    "editor_font": "#c2c2c2",
+    "terminal_font": "#c2c2c2",
+    "terminal_info": "#c2c2c2",
+    "terminal_error": "#ff0000",
+    "terminal_warning": "#EA9E22"
+}

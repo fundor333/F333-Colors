@@ -1,24 +1,33 @@
-# f333-colors README
+# f333-colors
 
-## Working with Markdown
+[![release](https://img.shields.io/github/release/Fundor333/f333-colors.svg?style=for-the-badge&logo=github&logoColor=white&colorA=2b303b&colorB=00e8c6)](https://github.com/Fundor333/f333-colors/releases/latest)
+[![vscode](https://img.shields.io/badge/VS_Code-v1.26+-373277.svg?style=for-the-badge&logo=microsoft&logoColor=white&colorA=2b303b&colorB=7cb7ff)](https://code.visualstudio.com/updates/v1_26)
+[![downloads](https://img.shields.io/visual-studio-marketplace/d/Fundor333.f333-colors?style=for-the-badge&logo=docusign&logoColor=white&colorA=2b303b&colorB=96E072)](https://marketplace.visualstudio.com/items?itemName=Fundor333.f333-colors)
+[![rating](https://img.shields.io/visual-studio-marketplace/stars/Fundor333.f333-colors?style=for-the-badge&logo=reverbnation&logoColor=white&colorA=2b303b&colorB=FFE66D)](https://marketplace.visualstudio.com/items?itemName=Fundor333.f333-colors)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge&logoColor=white&colorA=2b303b)](https://www.gnu.org/licenses/gpl-3.0)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+![logo.png](logo.png)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+I don't like the theme online so I wrote mine with some strange color choises.
 
-## For more information
+I can't find a good theme for the debug mode so I make them looking like what i prefer for the occasion.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Screenshot
 
-**Enjoy!**
+Blue
+![F333 Colors Blue](screenshots/color%20blue.png)
 
-# ED4241
+Cyan
+![F333 Colors Blue](screenshots/color%20cyan.png)
 
-# EA9E22
+Green
+![F333 Colors Blue](screenshots/color%20green.png)
 
-# 561E45
+Orange
+![F333 Colors Blue](screenshots/color%20orange.png)
 
-# 063041
+Plum
+![F333 Colors Blue](screenshots/color%20plum.png)
+
+Red
+![F333 Colors Blue](screenshots/color%20red.png)

@@ -1,0 +1,31 @@
+{
+  "name": "f333-colors",
+  "publisher": "Fundor333",
+  "license": "GNU GPLv3",
+  "author": "Matteo Scarpa [@fundor333]",
+  "displayName": "F333 Colors",
+  "description": "I don't like the theme online so I wrote mine with some strange color choises",
+  "version": "0.4.3",
+  "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fundor333/F333-Colors"
+  },
+  "bugs": {
+    "url": "https://github.com/fundor333/F333-Colors/issues"
+  },
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": {{ themes }}
+  },
+  "scripts": {
+    "build": "vsce package",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  }
+}
