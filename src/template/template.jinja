@@ -14,8 +14,8 @@
         "activityBar.inactiveForeground": "{{ font }}",
         "activityBar.background": "{{ main }}",
 
-        "statusBar.background": "#1f1f1f",
-        "statusBar.foreground": "#E4E3D3",
+        "statusBar.background": "{{ statusbar_back|default( '#1f1f1f') }}",
+        "statusBar.foreground": "{{ statusbar_fore|default(  '#E4E3D3') }}",
         "statusBar.debuggingBackground": "{{ main }}",
         "statusBar.debuggingForeground": "{{ font }}",
         "statusBar.noFolderBackground": "{{ font }}",
