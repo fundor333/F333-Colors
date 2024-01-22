@@ -1,0 +1,12 @@
+{
+    "gitDecoration.addedResourceForeground": "#665c54",
+    "gitDecoration.modifiedResourceForeground": "#98971a",
+    "gitDecoration.deletedResourceForeground": "#cc241d",
+    "gitDecoration.renamedResourceForeground": "#d65d0e",
+    "gitDecoration.stageModifiedResourceForeground": "#cc241d",
+    "gitDecoration.stageDeletedResourceForeground": "#d65d0e",
+    "gitDecoration.untrackedResourceForeground": "#d65d0e",
+    "gitDecoration.ignoredResourceForeground": "#d65d0e",
+    "gitDecoration.conflictingResourceForeground": "#cc241d",
+    "gitDecoration.submoduleResourceForeground": "#d65d0e"
+}
