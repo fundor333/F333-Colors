@@ -1,0 +1,23 @@
+{
+    "filename": "f333 colors pastel-blue-color-theme.json",
+    "uiTheme": "vs-dark",
+    "title": "F333 Colors Pastel Blue",
+    "tokenColors": "editor/token_colors_dark.json",
+    "template": "template/template.jinja",
+    "inverted_font": "#1f1f1f",
+    "font": "#fbf1c7",
+    "main": "#458588",
+    "notice": "#b16286",
+    "warning": "#cc241d",
+    "allert": "#d65d0e",
+    "editor_backgound": "#1f1f1f",
+    "editor_font": "#fbf1c7",
+    "terminal_font": "#fbf1c7",
+    "terminal_info": "#fbf1c7",
+    "terminal_error": "#cc241d",
+    "terminal_warning": "#EA9E22",
+
+    "statusbar_back":"#1f1f1f",
+    "statusbar_fore":"#fbf1c7"
+}
+
