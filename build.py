@@ -1,6 +1,6 @@
 import json
-import jinja2
 import glob
+from jinja2 import Template
 
 
 def get_config(path_config: str) -> dict:
@@ -11,7 +11,7 @@ def get_config(path_config: str) -> dict:
 
 def elaborate_theme(setting: dict):
     with open("src/" + setting.get("template")) as f:
-        template = jinja2.Template("".join(f.readlines()))
+        template = Template("".join(f.readlines()))
     with open("src/" + setting.get('tokenColors')) as f:
         setting['token_colors'] = ''.join(f.readlines())
     raw_template = json.loads(template.render(setting))
@@ -43,7 +43,7 @@ if __name__ == "__main__":
             }
         )
     with open('src/template/package.json.jinja') as f:
-        template = jinja2.Template("".join(f.readlines()))
+        template = Template("".join(f.readlines()))
     output_template = template.render({"themes": json.dumps(settings, indent=4)})
 
     with open("package.json", 'w') as f:
