@@ -13,3 +13,8 @@ build: ## Build the themes
 publish: build ## Publish the package
 	@npm run package
 	@npm run publish
+
+.PHONY: install
+install: ## Install dependency
+	@poetry install --no-root
+	@npm install --global @vscode/vsce

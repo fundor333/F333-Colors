@@ -5,7 +5,7 @@
   "author": "Matteo Scarpa [@fundor333]",
   "displayName": "F333 Colors",
   "description": "I don't like the theme online so I wrote mine with some strange color choises",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "icon": "logo.png",
   "repository": {
     "type": "git",
@@ -48,9 +48,14 @@
         "path": "./themes/f333 colors orange-color-theme.json"
     },
     {
+        "label": "F333 Colors Pastel Turquoise",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f333 colors pastel-turquoise-color-theme.json"
+    },
+    {
         "label": "F333 Colors Pastel Blue",
         "uiTheme": "vs-dark",
-        "path": "./themes/f333 colors pastel-blue-color-theme.json"
+        "path": "./themes/f333 colors pastel-turquoise-color-theme.json"
     },
     {
         "label": "F333 Colors Red",
