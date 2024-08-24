@@ -40,14 +40,14 @@ def hotfix(**kwargs):
 def minor(**kwargs):
     config = get_config('setting.json')
     a, b, c = get_version(config)
-    set_version('setting.json', config, a, b + 1, c)
+    set_version('setting.json', config, a, b + 1, 0)
 
 
 @version.command()
 def major(**kwargs):
     config = get_config('setting.json')
     a, b, c = get_version(config)
-    set_version('setting.json', config, a + 1, b, c)
+    set_version('setting.json', config, a + 1, 0, 0)
 
 
 if __name__ == '__main__':
