@@ -7,7 +7,7 @@ help: ## Show this help
 
 .PHONY: build
 build: ## Build the themes
-	@poetry run python build.py
+	@poetry run python scripts/build.py
 
 .PHONY: publish
 publish: build ## Publish the package
@@ -18,3 +18,12 @@ publish: build ## Publish the package
 install: ## Install dependency
 	@poetry install --no-root
 	@npm install --global @vscode/vsce
+
+hotfix: ##Upgrade of hotfix version
+	@poetry run python scripts/version.py hotfix
+
+minor: ##Upgrade of minor version
+	@poetry run python scripts/version.py minor
+
+major: ##Upgrade of major version
+	@poetry run python scripts/version.py major

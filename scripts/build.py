@@ -44,7 +44,9 @@ if __name__ == "__main__":
         )
     with open('src/template/package.json.jinja') as f:
         template = Template("".join(f.readlines()))
-    output_template = template.render({"themes": json.dumps(settings, indent=4)})
+    settings = get_config('setting.json')
+    settings['themes'] = json.dumps(settings, indent=4)
+    output_template = template.render(settings)
 
     with open("package.json", 'w') as f:
         f.write(output_template)
