@@ -5,7 +5,7 @@
   "author": "Matteo Scarpa [@fundor333]",
   "displayName": "F333 Colors",
   "description": "I don't like the theme online so I wrote mine with some strange color choises",
-  "version": "0.6.1",
+  "version": "0.6.3",
   "icon": "logo.png",
   "repository": {
     "type": "git",
@@ -21,16 +21,48 @@
     "Themes"
   ],
   "contributes": {
-    "themes": {
-    "name": "f333-colors",
-    "publisher": "Fundor333",
-    "license": "GNU GPLv3",
-    "author": "Matteo Scarpa [@fundor333]",
-    "displayName": "F333 Colors",
-    "description": "I don't like the theme online so I wrote mine with some strange color choises",
-    "version": "0.6.1",
-    "icon": "logo.png"
-}
+    "themes": [
+    {
+        "label": "F333 Colors Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f333 colors green-color-theme.json"
+    },
+    {
+        "label": "F333 Colors Cyan",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f333 colors cyan-color-theme.json"
+    },
+    {
+        "label": "F333 Colors Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f333 colors blue-color-theme.json"
+    },
+    {
+        "label": "F333 Colors Plum",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f333 colors plum-color-theme.json"
+    },
+    {
+        "label": "F333 Colors Orange",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f333 colors orange-color-theme.json"
+    },
+    {
+        "label": "F333 Colors Pastel Turquoise",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f333 colors pastel-turquoise-color-theme.json"
+    },
+    {
+        "label": "F333 Colors Pastel Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f333 colors pastel-blue-color-theme.json"
+    },
+    {
+        "label": "F333 Colors Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f333 colors red-color-theme.json"
+    }
+]
   },
   "scripts": {
     "build": "vsce package",

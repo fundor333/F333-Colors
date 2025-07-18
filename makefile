@@ -21,9 +21,12 @@ install: ## Install dependency
 
 hotfix: ##Upgrade of hotfix version
 	@poetry run python scripts/version.py hotfix
+	@poetry run python scripts/build.py
 
 minor: ##Upgrade of minor version
 	@poetry run python scripts/version.py minor
+	@poetry run python scripts/build.py
 
 major: ##Upgrade of major version
 	@poetry run python scripts/version.py major
+	@poetry run python scripts/build.py
