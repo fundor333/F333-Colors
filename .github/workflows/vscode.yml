@@ -10,17 +10,42 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
         with:
-          node-version: 14
+          python-version: "3.10"
+
+      - name: Install Poetry
+        run: pipx install poetry
+
+      - name: Install Python dependencies
+        run: poetry install --no-root
+
+      - name: Build themes and package.json from src/
+        run: poetry run python scripts/build.py
+
+      - name: Fail if themes/ or package.json are out of date
+        run: |
+          if ! git diff --quiet -- themes package.json; then
+            echo "::error::themes/ and/or package.json are out of sync with src/. Run 'make build' locally and commit the result before releasing."
+            git diff -- themes package.json
+            exit 1
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
           registry-url: https://registry.npmjs.org/
 
       - name: Install the dependencies
         run: npm i
 
       - name: Install vsce
-        run: npm i -g vsce
+        run: npm install -g @vscode/vsce
+
+      - name: Package the extension
+        run: vsce package
 
       - name: Publish
         run: vsce publish -p ${{ secrets.VSCE_PAT }}

@@ -57,7 +57,14 @@ There is no test suite or linter configured for this repo.
 
 ## CI
 
-`.github/workflows/vscode.yml` runs on a published GitHub release (or manual dispatch): installs npm
-deps, installs `vsce`, and runs `vsce publish` using the `VSCE_PAT` secret. It does not run the Python
-build step, so `themes/` and `package.json` must already be regenerated and committed before cutting a
-release.
+`.github/workflows/vscode.yml` runs on a published GitHub release (or manual dispatch): it installs
+Poetry and runs `scripts/build.py` to regenerate `themes/` and `package.json` from `src/`, then fails
+the run if that regeneration produced any diff against what's committed (i.e. `src/` and the generated
+artifacts must already be in sync before tagging a release). It then installs Node deps, installs
+`vsce`, packages the extension, and runs `vsce publish` using the `VSCE_PAT` secret.
+
+`.vscodeignore` controls what actually ships inside the `.vsix`: it must exclude everything that isn't
+part of the published theme (`node_modules/`, `.venv/`, `.mypy_cache/`, `src/`, `scripts/`, Python
+build/lock files, etc.) — only `package.json`, `themes/*.json`, `logo.png`, `LICENSE`, `README.md`, and
+`CHANGELOG.md` should end up in the package. If a local `npm run package` / `make publish` ever produces
+a `.vsix` far larger than previous releases, check `.vscodeignore` first before assuming it's correct.
