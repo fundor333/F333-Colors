@@ -32,7 +32,7 @@ def elaborate_theme(setting: dict):
 
 if __name__ == "__main__":
     settings = []
-    for e in glob.glob("src/colors/*"):
+    for e in sorted(glob.glob("src/colors/*")):
         setting = get_config(e)
         elaborate_theme(setting)
         settings.append(
