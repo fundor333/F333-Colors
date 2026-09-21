@@ -1,0 +1,20 @@
+{
+  "filename": "f333 colors lime-color-theme.json",
+  "uiTheme": "vs-dark",
+  "title": "F333 Colors Lime",
+  "tokenColors": "editor/token_colors_dark.json",
+  "template": "template/template.jinja",
+  "font": "#1f1f1f",
+  "inverted_font": "#9fcbee",
+  "main": "#9dea91",
+  "notice": "#063041",
+  "warning": "#813939",
+  "allert": "#ff4d00",
+  "editor_backgound": "#1f1f1f",
+  "editor_font": "#c2c2c2",
+  "terminal_font": "#c2c2c2",
+  "terminal_info": "#c2c2c2",
+  "terminal_error": "#813939",
+  "terminal_warning": "#ffc100"
+}
+

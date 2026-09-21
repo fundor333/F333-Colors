@@ -32,7 +32,64 @@
         "tab.inactiveForeground": "{{ main }}",
         "tab.inactiveModifiedBorder": "{{ main }}",
         "tab.unfocusedActiveBackground": "{{ tab_unfocus_bk|default( font ) }}",
-        "tab.unfocusedActiveForeground": "{{ tab_unfocus_fg|default( inverted_font ) }}"
+        "tab.unfocusedActiveForeground": "{{ tab_unfocus_fg|default( inverted_font ) }}",
+
+        "sideBar.background": "{{ sidebar_back|default( editor_backgound ) }}",
+        "sideBar.foreground": "{{ sidebar_fore|default( editor_font ) }}",
+        "sideBar.border": "{{ sidebar_border|default( main ) }}",
+        "sideBarTitle.foreground": "{{ sidebar_title|default( editor_font ) }}",
+        "sideBarSectionHeader.background": "{{ sidebar_section_back|default( main ) }}",
+        "sideBarSectionHeader.foreground": "{{ sidebar_section_fore|default( inverted_font ) }}",
+
+        "panel.background": "{{ panel_back|default( editor_backgound ) }}",
+        "panel.border": "{{ panel_border|default( main ) }}",
+        "panelTitle.activeBorder": "{{ panel_active_border|default( main ) }}",
+        "panelTitle.activeForeground": "{{ panel_active_fore|default( editor_font ) }}",
+        "panelTitle.inactiveForeground": "{{ panel_inactive_fore|default( font ) }}",
+
+        "input.background": "{{ input_back|default( editor_backgound ) }}",
+        "input.foreground": "{{ input_fore|default( editor_font ) }}",
+        "input.border": "{{ input_border|default( main ) }}",
+        "input.placeholderForeground": "{{ input_placeholder|default( font ) }}",
+
+        "dropdown.background": "{{ dropdown_back|default( editor_backgound ) }}",
+        "dropdown.foreground": "{{ dropdown_fore|default( editor_font ) }}",
+        "dropdown.border": "{{ dropdown_border|default( main ) }}",
+
+        "button.background": "{{ button_back|default( main ) }}",
+        "button.foreground": "{{ button_fore|default( inverted_font ) }}",
+        "button.hoverBackground": "{{ button_hover|default( notice ) }}",
+        "button.secondaryBackground": "{{ button_secondary_back|default( font ) }}",
+        "button.secondaryForeground": "{{ button_secondary_fore|default( inverted_font ) }}",
+        "button.secondaryHoverBackground": "{{ button_secondary_hover|default( notice ) }}",
+
+        "list.activeSelectionBackground": "{{ list_active_back|default( main ) }}",
+        "list.activeSelectionForeground": "{{ list_active_fore|default( inverted_font ) }}",
+        "list.hoverBackground": "{{ list_hover_back|default( notice ) }}",
+        "list.hoverForeground": "{{ list_hover_fore|default( editor_font ) }}",
+        "list.inactiveSelectionBackground": "{{ list_inactive_back|default( font ) }}",
+        "list.inactiveSelectionForeground": "{{ list_inactive_fore|default( inverted_font ) }}",
+
+        "scrollbarSlider.background": "{{ scrollbar_back|default( main ) }}",
+        "scrollbarSlider.hoverBackground": "{{ scrollbar_hover|default( notice ) }}",
+        "scrollbarSlider.activeBackground": "{{ scrollbar_active|default( notice ) }}",
+
+        "badge.background": "{{ badge_back|default( notice ) }}",
+        "badge.foreground": "{{ badge_fore|default( editor_font ) }}",
+
+        "notificationCenterHeader.background": "{{ notification_header_back|default( main ) }}",
+        "notificationCenterHeader.foreground": "{{ notification_header_fore|default( inverted_font ) }}",
+        "notifications.background": "{{ notification_back|default( editor_backgound ) }}",
+        "notifications.foreground": "{{ notification_fore|default( editor_font ) }}",
+        "notifications.border": "{{ notification_border|default( main ) }}",
+
+        "menu.background": "{{ menu_back|default( editor_backgound ) }}",
+        "menu.foreground": "{{ menu_fore|default( editor_font ) }}",
+        "menu.selectionBackground": "{{ menu_selection_back|default( main ) }}",
+        "menu.selectionForeground": "{{ menu_selection_fore|default( inverted_font ) }}",
+        "menu.border": "{{ menu_border|default( main ) }}",
+        "menubar.selectionBackground": "{{ menubar_selection_back|default( main ) }}",
+        "menubar.selectionForeground": "{{ menubar_selection_fore|default( inverted_font ) }}"
     },
     "tokenColors": {{token_colors}}
 }
